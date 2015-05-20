@@ -1,0 +1,123 @@
+alias cp='cp -i'
+alias h=history
+alias mv='mv -i'
+alias psg='ps ax | grep'
+#alias rm='del'
+#alias rm='rm -i'
+alias scpresume='rsync --partial --progress --rsh=ssh'
+alias lesslast='less `flast`'
+alias catlast='cat `flast`'
+alias openlast='open `flast`'
+
+alias run='open -a'
+
+if [ $HOSTNAME[1,3] = "pmp" ]; then
+   alias ls='ls -G'
+else
+  alias ls='ls --color'
+fi
+alias l='ls -l'
+alias la='ls -la'
+alias ld='lt | grep "^d"'
+alias ll='ls -l'
+alias lt='ls -ltr'
+alias getlast='ls -t | head -n1'
+alias cp='cp -i'
+alias h=history
+alias mv='mv -i'
+alias psg='ps ax | grep'
+#alias rm='del'
+#alias rm='rm -i'
+alias scpresume='rsync --partial --progress --rsh=ssh'
+alias lesslast='less `flast`'
+alias catlast='cat `flast`'
+alias openlast='open `flast`'
+
+alias run='open -a'
+
+if [ $HOSTNAME[1,3] = "pmp" ]; then
+   alias ls='ls -G'
+else
+  alias ls='ls --color'
+fi
+alias l='ls -l'
+alias la='ls -la'
+alias ld='lt | grep "^d"'
+alias ll='ls -l'
+alias lt='ls -ltr'
+alias getlast='ls -t | head -n1'
+alias cp='cp -i'
+alias h=history
+alias mv='mv -i'
+alias psg='ps ax | grep'
+#alias rm='del'
+#alias rm='rm -i'
+alias scpresume='rsync --partial --progress --rsh=ssh'
+alias lesslast='less `flast`'
+alias catlast='cat `flast`'
+alias openlast='open `flast`'
+
+alias run='open -a'
+
+if [ $HOSTNAME[1,3] = "pmp" ]; then
+   alias ls='ls -G'
+else
+  alias ls='ls --color'
+fi
+alias l='ls -l'
+alias la='ls -la'
+alias ld='lt | grep "^d"'
+alias ll='ls -l'
+alias lt='ls -ltr'
+alias getlast='ls -t | head -n1'
+alias cp='cp -i'
+alias h=history
+alias mv='mv -i'
+alias psg='ps ax | grep'
+#alias rm='del'
+#alias rm='rm -i'
+alias scpresume='rsync --partial --progress --rsh=ssh'
+alias lesslast='less `flast`'
+alias catlast='cat `flast`'
+alias openlast='open `flast`'
+
+alias run='open -a'
+
+if [ $HOSTNAME[1,3] = "pmp" ]; then
+   alias ls='ls -G'
+else
+  alias ls='ls --color'
+fi
+alias l='ls -l'
+alias la='ls -la'
+alias ld='lt | grep "^d"'
+alias ll='ls -l'
+alias lt='ls -ltr'
+alias getlast='ls -t | head -n1'
+alias cp='cp -i'
+alias h=history
+alias mv='mv -i'
+alias psg='ps ax | grep'
+#alias rm='del'
+#alias rm='rm -i'
+alias scpresume='rsync --partial --progress --rsh=ssh'
+alias lesslast='less `flast`'
+alias catlast='cat `flast`'
+alias openlast='open `flast`'
+
+alias run='open -a'
+
+if [ $HOSTNAME[1,3] = "pmp" ]; then
+   alias ls='ls -G'
+else
+  alias ls='ls --color'
+fi
+alias l='ls -l'
+alias la='ls -la'
+alias ld='lt | grep "^d"'
+alias ll='ls -l'
+alias lt='ls -ltr'
+alias getlast='ls -t | head -n1'
+alias updatedb='sudo /usr/libexec/locate.updatedb'
+
+alias changemac='sudo ifconfig en0 ether'
