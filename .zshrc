@@ -54,8 +54,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Bind up/down arrow keys to navigate through your history
- bindkey '\e[A' directory-history-search-backward
- bindkey '\e[B' directory-history-search-forward
+ # bindkey '\e[A' directory-history-search-backward
+ # bindkey '\e[B' directory-history-search-forward
 
  # Bind CTRL+k and CTRL+j to substring search
  bindkey '^r' history-substring-search-up
@@ -80,37 +80,3 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cp='cp -i'
-alias h=history
-alias mv='mv -i'
-alias scpresume='rsync --partial --progress --rsh=ssh'
-
-alias run='open -a'
-
-alias ls='ls -G'
-alias l='ls -l'
-alias la='ls -la'
-alias ld='lt | grep "^d"'
-alias ll='ls -l'
-alias lt='ls -ltr'
-alias getlast='ls -t | head -n1'
-
-alias sshu='ssh malalur2@remlnx.ews.illinois.edu'
-alias updatedb='sudo /usr/libexec/locate.updatedb'
-
-emacsopen() {
-  emacsclient $1 -c &
-}
-
-alias e=emacsopen
-alias et='emacsclient -t'
-alias vim=emacsopen
-alias vi=emacsopen
